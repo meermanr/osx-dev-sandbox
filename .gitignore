@@ -1,0 +1,5 @@
+# Compiled test binary
+test_sandbox
+
+# Test output files
+*_output.txt
