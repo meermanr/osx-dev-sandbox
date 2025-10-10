@@ -1,6 +1,6 @@
 # macOS Development Sandbox
 
-Secure, sandboxed environment for running GPU-accelerated code with near-native Metal performance.
+Secure, sandboxed environment for running OSX native code with native performance.
 
 ## Quick Start
 
