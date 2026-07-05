@@ -146,6 +146,12 @@ SANDBOX_PROFILE="(version 1)
 (deny default)
 
 ;; ============================================================================
+;; Import system rules (required on macOS 26.5+ for process-exec to work)
+;; Without this import, process-exec rules cause SIGABRT on Sequoia.
+;; ============================================================================
+(import \"system.sb\")
+
+;; ============================================================================
 ;; PROCESS OPERATIONS (equivalent to CAP_SETUID, CAP_SETGID, process management)
 ;; ============================================================================
 
